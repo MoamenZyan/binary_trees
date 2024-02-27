@@ -2,7 +2,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_insert_right - function to insert a new node to it's parent right.
+ * binary_tree_insert_right - function to insert node to it's parent right.
  * @parent: parent of the new node.
  * @value: value of the new node.
  * Return: the new node.
@@ -11,7 +11,7 @@
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new = malloc(sizeof(binary_tree_t));
-	
+
 	if (new == NULL || parent == NULL)
 		return (NULL);
 
